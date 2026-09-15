@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diffusion Denoising Visualization</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Diffusion Model Denoising Process</h1>
+    <p class="subtitle">
+      A synthetic, in-browser simulation of a diffusion model's reverse process — watch pure noise
+      gradually resolve into a structured pattern, step by step.
+    </p>
+
+    <div class="stage">
+      <canvas id="canvas" width="480" height="480"></canvas>
+    </div>
+
+    <div class="controls">
+      <button id="playBtn" class="btn primary" aria-label="Play">▶ Play</button>
+      <button id="resetBtn" class="btn" aria-label="Reset to pure noise">⟲ Reset</button>
+
+      <div class="slider-row">
+        <label for="stepSlider" class="step-label">Step <span id="stepCount">0</span> / <span id="stepMax">60</span></label>
+        <input type="range" id="stepSlider" min="0" max="60" value="0" step="1">
+      </div>
+    </div>
+
+    <p class="footnote">
+      t = 0 is pure Gaussian noise, t = 60 is the fully "denoised" target pattern.
+      This is a procedural simulation for illustration — no trained model is run in-browser.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
