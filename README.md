@@ -13,14 +13,14 @@ I'm interested in **diffusion models** and generative machine learning research 
 ## 🌀 Live Demo: Diffusion Denoising Visualization
 
 <p align="center">
-  <a href="https://puranjanb.github.io/">
+  <a href="https://puranjanb.github.io/puranjanb/">
     <img alt="Launch the interactive demo" src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20Launch-Interactive%20Denoising%20Demo-6f42c1?style=for-the-badge">
   </a>
 </p>
 
 An interactive, dependency-free HTML5 Canvas visualization simulating a diffusion model's reverse (denoising) process — from pure noise to a structured pattern. Use the slider or the play button to step through the simulated denoising trajectory.
 
-**[👉 Try it live](https://puranjanb.github.io/)**
+**[👉 Try it live](https://puranjanb.github.io/puranjanb/)**
 
 ---
 
