@@ -1,12 +1,10 @@
 # Hi, I'm Puranjan 👋
 
-I'm interested in **diffusion models** and generative machine learning research — exploring how noise becomes structure, one denoising step at a time.
+I'm an AI master's student at FAU Erlangen with internship experience in data science and AI engineering. My master's thesis focuses on generative AI tools and technologies.
 
-- 🔭 Currently exploring: diffusion models, score-based generative modeling, and ML research
-- 🧠 Background: [Your bio here — e.g. student / researcher / engineer, field of study, institution]
-- 🌱 Learning: [Your current learning focus here]
-- 💬 Ask me about: [Your topics of interest here]
-- 📫 Reach me: [Your contact / links here]
+I'm interested in turning machine learning research into practical, reproducible applications.
+
+**Seeking:** Data Scientist and AI Engineer opportunities.
 
 ---
 
